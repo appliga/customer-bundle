@@ -1,0 +1,28 @@
+{
+    "name":         "appliga/customer-bundle",
+    "description":  "",
+    "keywords":     ["Customer"],
+    "homepage":     "https://github.com/appliga/customer-bundle",
+    "type":         "library",
+    "license":      "MIT",
+    "authors":      [
+        {
+            "name":      "Pawel Brzoski",
+            "email":     "brzoski.pawel@gmail.com"
+        }
+    ],
+
+
+    "require-dev": {
+
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Appliga\\CustomerBundle\\": ""
+        }
+    },
+    "require": {
+        "appliga/customer": "dev-master"
+    }
+}
